@@ -10,7 +10,7 @@ RUN tar -xvzf xmrig-$VERSION-gcc7-xenial-amd64.tar.gz
 
 ENV POOL stratum+tcp://xmr.pool.minergate.com:45560
 ENV USERNAME philipe2018@gmail.com
-ENV DONATE 5
+ENV DONATE
 ENV THREADS 4
 
 WORKDIR xmrig-$VERSION/
